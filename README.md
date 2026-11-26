@@ -1,7 +1,7 @@
 <h1 align="center">⚡ Bem-vindo ao meu Perfil! — Renato Silva</h1>
 
 <p align="center">
-  <video src="sae-itoshi-sae.gif" width="300" autoplay loop muted playsinline></video>
+  <video src="sae-itoshi-sae.gif" width="280" autoplay loop muted playsinline></video>
 </p>
 
 <p align="center">

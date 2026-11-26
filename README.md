@@ -15,15 +15,8 @@
 
 * 🚀 Estou cursando **Técnico em Desenvolvimento de Sistemas** no **Senai**.
 * 💻 Apaixonado por tecnologia, programação e criação de sistemas web modernos e interativos.
-* 🎮 Adoro transformar ideias criativas em código (inclusive com a ideia da cobrinha no gráfico de contribuições!).
 * 📍 Localizado na divisa de **São Roque/SP**.
 
----
-
-### 🐍 O Contribuinte "Snake" (Easter Egg)
-*Sabias que a matriz de contribuições do GitHub parece um tabuleiro de jogo clássico? Inspirado nisso, a meta por aqui é nunca deixar a cobrinha passar fome e manter o gráfico sempre verde com novos commits e códigos criativos!*
-
----
 
 ### 🛠️ Tecnologias e Ferramentas
 

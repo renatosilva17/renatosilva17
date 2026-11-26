@@ -1,0 +1,42 @@
+name: Gerar Animação da Cobrinha
+
+on:
+  # Executa automaticamente a cada 24 horas
+  schedule:
+    - cron: "0 0 * * *"
+  
+  # Permite executar manualmente na aba "Actions"
+  workflow_dispatch:
+  
+  # Executa sempre que houver um commit nabranch main
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout do Repositório
+        uses: actions/checkout@v3
+
+      - name: Gerar o ficheiro SVG da Cobrinha
+        uses: Platane/snk@v3
+        id: snake-gif
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Enviar/Atualizar a branch de output
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

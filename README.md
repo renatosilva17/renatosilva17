@@ -32,10 +32,10 @@
 
 ---
 
-### 🐍 O Jogo da Cobrinha nas Contribuições
+
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/renatosilva17/renatosilva17/output/github-contribution-grid-snake.svg" alt="Snake Animation" -dark />
+  <img src="https://raw.githubusercontent.com/renatosilva17/renatosilva17/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
 </p>
 
 ### 📊 Estatísticas do GitHub

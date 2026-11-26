@@ -15,7 +15,6 @@
 
 * 🚀 Estou cursando **Técnico em Desenvolvimento de Sistemas** no **Senai**.
 * 💻 Apaixonado por tecnologia, programação e criação de sistemas web modernos e interativos.
-* 🎮 Adoro transformar ideias criativas em código (inclusive com a ideia da cobrinha no gráfico de contribuições!).
 * 📍 Localizado na divisa de **São Roque/SP**.
 
 
